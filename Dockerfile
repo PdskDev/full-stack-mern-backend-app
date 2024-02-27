@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app/
 
 #Install application deps
-RUN npm Install
+RUN npm install
 
 EXPOSE 8000
 
