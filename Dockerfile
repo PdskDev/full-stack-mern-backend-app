@@ -5,7 +5,7 @@ FROM node:18
 WORKDIR /app
 
 #Copy application file
-COPY . /app/
+COPY . /app
 
 #Install application deps
 RUN npm install
