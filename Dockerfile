@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 #Install application deps
-RUN npm install -g npm@10.4.0 --silent
+RUN npm install -g npm@latest --silent
 RUN npm install --silent
 
 EXPOSE 8000
